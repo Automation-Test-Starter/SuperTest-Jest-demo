@@ -15,11 +15,33 @@
 - jest-html-reporters
 - GitHub action
 
+## 项目结构
+
+```Text
+SuperTest-Jest-demo
+├── README.md
+├── package.json
+├── package-lock.json
+├── Config // 测试配置文件
+│   └── config.js
+├── Specs // 测试用例文件
+│   └── test.spec.js
+├── Utils // 测试工具文件
+│   └── utils.js
+├── Report // 测试报告文件
+│   └── report.html
+├── .gitignore
+└── node_modules // 项目依赖
+```
+
 ## 项目运行
 
 ```bash
 node run test
 ```
+## 测试报告截图
+
+![12ZreT](https://cdn.jsdelivr.net/gh/naodeng/blogimg@master/uPic/12ZreT.png)
 
 ## 添加API测试用例
 

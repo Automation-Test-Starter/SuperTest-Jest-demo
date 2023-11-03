@@ -14,11 +14,33 @@ a SuperTest API automation testing demo project with Jest
 - jest-html-reporters
 - GitHub action
 
+## Project structure
+
+```Text
+SuperTest-Jest-demo
+├── README.md
+├── package.json
+├── package-lock.json
+├── Config // TEST configuration file
+│   └── config.js
+├── Specs // TEST case file
+│   └── test.spec.js
+├── Utils // TEST tool file
+│   └── utils.js
+├── Report // TEST report file
+│   └── report.html
+├── .gitignore
+└── node_modules // Project dependencies
+```
+
 ## HOW TO RUN
 
 ```bash
 node run test
 ```
+## Test report screenshot
+
+![12ZreT](https://cdn.jsdelivr.net/gh/naodeng/blogimg@master/uPic/12ZreT.png)
 
 ## Add API test cases
 
