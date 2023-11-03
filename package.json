@@ -1,0 +1,17 @@
+{
+  "name": "supertest-jest-demo",
+  "version": "1.0.0",
+  "description": "a SuperTest demo project with JEST AND TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.4",
+    "supertest": "^6.3.3"
+  }
+}
