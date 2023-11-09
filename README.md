@@ -1,52 +1,55 @@
-<div align="right"><strong>🇨🇳中文</a></strong>  | <strong><a href="./README_EN.md">🇬🇧English</strong></div>
+<div align="right"><strong><a href="README_ZH.md">🇨🇳中文</a></strong>  | <strong>🇬🇧English</strong></div>
 
 # SuperTest-Jest-demo
+a SuperTest API automation testing demo project with Jest
 
-一个使用 Jest 的 SuperTest API 自动化测试演示项目
+## Environment preparation
+- Nodejs, I'm using v21.1.0.
+- SuperTest, I'm using version 6.3.3.
+- Jest, I'm using the latest version 29.7.0.
 
-## 环境准备
-- Nodejs ，我使用的 v21.1.0
-- SuperTest 我使用的 6.3.3 版本
-- Jest 我使用的是最新的 29.7.0 版本
-
-## 技术栈
+## Tech stack
 - SuperTest
 - Jest
 - jest-html-reporters
 - GitHub action
 
-## 项目结构
+## Project structure
 
 ```Text
 SuperTest-Jest-demo
 ├── README.md
 ├── package.json
 ├── package-lock.json
-├── Config // 测试配置文件
+├── Config // TEST configuration file
 │   └── config.js
-├── Specs // 测试用例文件
+├── Config // TEST data file
+│   └── requestData.js
+│   └── responseData.js
+├── Specs // TEST case file
 │   └── test.spec.js
-├── Utils // 测试工具文件
+├── Utils // TEST tool file
 │   └── utils.js
-├── Report // 测试报告文件
+├── Report // TEST report file
 │   └── report.html
 ├── .gitignore
-└── node_modules // 项目依赖
+└── node_modules // Project dependencies
 ```
 
-## 项目运行
+## HOW TO RUN
 
 ```bash
 node run test
 ```
-## 测试报告截图
+## Test report screenshot
 
 ![12ZreT](https://cdn.jsdelivr.net/gh/naodeng/blogimg@master/uPic/12ZreT.png)
 
-## 添加API测试用例
+## Add API test cases
 
-- 在 Specs目录下新加测试用例即可
+- Just add a new test case in the Specs directory.
 
-## 更多信息
+## More info
 
-- [项目教程](https://github.com/Automation-Test-Starter/SuperTest-API-Test-Starter)
+- [Project Tutorial](https://github.com/Automation-Test-Starter/SuperTest-API-Test-Starter)
+
